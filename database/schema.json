@@ -1,0 +1,20 @@
+{
+  "description": "Esquema lógico ilustrativo, datos solo en localStorage",
+  "entities": {
+    "patients": {
+      "id": "string",
+      "name": "string",
+      "document": "string(unique)",
+      "age": "integer(0..120)",
+      "phone": "string"
+    },
+    "appointments": {
+      "id": "string",
+      "patientId": "string(ref patients.id)",
+      "specialty": "string",
+      "date": "YYYY-MM-DD",
+      "time": "HH:mm",
+      "status": "pendiente|completada|cancelada"
+    }
+  }
+}

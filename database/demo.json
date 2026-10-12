@@ -1,0 +1,26 @@
+{
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Valeria López",
+      "document": "DEMO-1001",
+      "age": 29,
+      "phone": "000-0001"
+    },
+    {
+      "id": "p2",
+      "name": "Carlos Méndez",
+      "document": "DEMO-1002",
+      "age": 41,
+      "phone": "000-0002"
+    },
+    {
+      "id": "p3",
+      "name": "Lucía Fernández",
+      "document": "DEMO-1003",
+      "age": 9,
+      "phone": "000-0003"
+    }
+  ],
+  "appointments": []
+}
