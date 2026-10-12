@@ -1,6 +1,6 @@
 # Hospitalia — Sistema de Gestión Hospitalaria
+#link:  https://marvar1979.github.io/Sistema-Hospitalario/
 
-**Equipo:** 1 · **Rama:** `equipo1-sistema-hospitalario`  
 **Responsable e integrante único:** Mariel Andrea Vargas  
 **Estado:** prototipo funcional de demostración (versión 1.0, sin despliegue ni backend).
 
@@ -15,22 +15,6 @@ Desarrollar una aplicación web básica que facilite la organización simulada d
 ## Tecnologías
 
 HTML5, CSS3, JavaScript ES Modules, JSON y `localStorage`; Node.js solo para ejecutar pruebas automatizadas.
-
-## Cómo ejecutar
-
-Se necesita un servidor HTTP local porque JavaScript utiliza módulos ES. Desde la raíz:
-
-```bash
-python -m http.server 8080
-```
-
-Abrir `http://localhost:8080`. Alternativamente, utilizar la extensión **Live Server** de Visual Studio Code. No es necesario instalar dependencias para la interfaz.
-
-Para probar las utilidades (requiere Node.js 18 o superior):
-
-```bash
-npm test
-```
 
 ## Funciones
 
@@ -50,9 +34,6 @@ npm test
 - `figma/`: referencia al prototipo visual (enlace real pendiente).
 - `github/`: instrucciones de publicación y plantilla de Pull Request.
 
-## Prototipo Figma
-
-Pendiente de elaboración/publicación; consultar `figma/enlace_figma.md`. El prototipo navegable se encuentra en el propio `index.html`.
 
 ## Limitaciones y seguridad
 
